@@ -4,14 +4,11 @@ import org.springframework.data.annotation.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
-public class Order {
+public class Item {
     @Id
-    private String id;
-    private String name;
-    private int itemQuantity;
+    String id;
+    String name;
 }
